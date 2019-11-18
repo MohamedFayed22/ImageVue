@@ -52,11 +52,12 @@ Vue.use(VueAxios, axios);
 import HomeComponent from './components/HomeComponent.vue';
 import PrintComponent from './components/PrintComponent.vue';
 import UploadComponent from './components/UploadComponent.vue';
+import WelcomeComponent from './components/WelcomeComponent.vue';
 
 const routes = [
   {
     name: 'home',
-    path: '/',
+    path: '/home',
     component: HomeComponent
   },
   {
@@ -68,6 +69,11 @@ const routes = [
     name: 'print',
     path: '/print',
     component: PrintComponent
+  },
+  {
+    name: 'all',
+    path: '*',
+    component: WelcomeComponent
   }
 
 ];

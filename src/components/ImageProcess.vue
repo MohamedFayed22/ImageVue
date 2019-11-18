@@ -199,7 +199,7 @@
                 if(!this.isValidNumberOfImages(files.length)){
                     return false
                 }
-                forEach(files, (value, index) => {
+                forEach(files, (value) => {
                     this.createImage(value)
                     if (!this.multiple) {
                         return false
@@ -254,7 +254,7 @@
                 if(!this.isValidNumberOfImages(files.length)){
                     return false
                 }
-                forEach(files, (value, index) => {
+                forEach(files, (value) => {
                     this.createImage(value)
                 })
                 if (document.getElementById(this.idUpload)) {
@@ -269,7 +269,7 @@
                 if(!this.isValidNumberOfImages(files.length)){
                     return false
                 }
-                forEach(files, (value, index) => {
+                forEach(files, (value) => {
                     this.editImage(value)
                 })
                 if (document.getElementById(this.idEdit)) {
