@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@minogin/vue-drag-resize-rotate": "^1.0.5",
-    "axios": "^0.19",
+    "axios": "^0.21",
     "bootstrap-vue": "^2.0.0-rc.11",
     "core-js": "^3.3.2",
     "lodash": "^4.17.11",
